@@ -32,3 +32,7 @@
  
  <img src="https://github.com/IbnuUmarrr/MakananRIngan_IbnuUmar/blob/main/Screenshot_20230702_202652.png" width="300" height="600">
 
+ Hasil Setelah Edit 
+ 
+ <img src="https://github.com/IbnuUmarrr/MakananRIngan_IbnuUmar/blob/main/Screenshot_20230702_202725.png" width="300" height="600">
+
