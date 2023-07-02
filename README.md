@@ -28,3 +28,7 @@
  
  <img src="https://github.com/IbnuUmarrr/MakananRIngan_IbnuUmar/blob/main/Screenshot_20230702_202624.png" width="300" height="600">
 
+ Edit Flavor Tidak Boleh Null
+ 
+ <img src="https://github.com/IbnuUmarrr/MakananRIngan_IbnuUmar/blob/main/Screenshot_20230702_202652.png" width="300" height="600">
+
