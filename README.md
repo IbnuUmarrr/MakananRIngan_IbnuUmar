@@ -22,5 +22,9 @@
 
  Edit Nama Tidak Boleh Null
 
-  <img src="https://github.com/IbnuUmarrr/MakananRIngan_IbnuUmar/blob/main/Screenshot_20230702_202601.png" width="300" height="600">
+ <img src="https://github.com/IbnuUmarrr/MakananRIngan_IbnuUmar/blob/main/Screenshot_20230702_202601.png" width="300" height="600">
+  
+ Edit Desc Tidak Boleh Null
  
+ <img src="https://github.com/IbnuUmarrr/MakananRIngan_IbnuUmar/blob/main/Screenshot_20230702_202624.png" width="300" height="600">
+
