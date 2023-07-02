@@ -19,4 +19,8 @@
  Bagian Edit & Delete Data
 
  <img src="https://github.com/IbnuUmarrr/MakananRIngan_IbnuUmar/blob/main/Screenshot_20230702_202503.png" width="300" height="600">
+
+ Edit Nama Tidak Boleh Null
+
+  <img src="https://github.com/IbnuUmarrr/MakananRIngan_IbnuUmar/blob/main/Screenshot_20230702_202601.png" width="300" height="600">
  
