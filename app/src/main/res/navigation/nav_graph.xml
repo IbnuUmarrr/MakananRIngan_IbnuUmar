@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.Ibnuumar.makananringan_ibnuumar.FirstFragment"
+        android:name="com.Ibnuumar.makananringan_ibnuumar.ui.FirstFragment"
         android:label="@string/app_name"
         tools:layout="@layout/fragment_first">
 
@@ -17,12 +17,16 @@
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="com.Ibnuumar.makananringan_ibnuumar.SecondFragment"
+        android:name="com.Ibnuumar.makananringan_ibnuumar.ui.SecondFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_second">
 
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+        <argument
+            android:name="snacks"
+            app:argType="com.Ibnuumar.makananringan_ibnuumar.model.Snacks"
+            app:nullable="true"/>
     </fragment>
 </navigation>

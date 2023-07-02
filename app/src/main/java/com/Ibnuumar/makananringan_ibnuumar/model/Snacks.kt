@@ -11,6 +11,7 @@ data class Snacks (
     @PrimaryKey(autoGenerate = true)
     val id: Int=0,
     val name : String,
-    val address: String
+    val desc: String,
+    val flavor : String
     ) :Parcelable
 
