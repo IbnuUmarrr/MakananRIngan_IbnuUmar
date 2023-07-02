@@ -15,4 +15,8 @@
  Halaman Utama menampilkan Insert Data
  
  <img src="https://github.com/IbnuUmarrr/MakananRIngan_IbnuUmar/blob/main/Screenshot_20230702_202454.png" width="300" height="600">
+
+ Bagian Edit & Delete Data
+
+ <img src="https://github.com/IbnuUmarrr/MakananRIngan_IbnuUmar/blob/main/Screenshot_20230702_202503.png" width="300" height="600">
  
