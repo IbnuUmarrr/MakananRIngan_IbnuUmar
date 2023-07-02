@@ -7,4 +7,8 @@
  Halaman insert data 
  
  <img src="https://github.com/IbnuUmarrr/MakananRIngan_IbnuUmar/blob/main/Screenshot_20230702_202327.png" width="300" height="600">
+
+ Insert Data
+
+ <img src="https://github.com/IbnuUmarrr/MakananRIngan_IbnuUmar/blob/main/Screenshot_20230702_202413.png" width="300" height="600">
  
