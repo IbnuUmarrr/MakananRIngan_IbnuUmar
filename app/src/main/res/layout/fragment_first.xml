@@ -15,23 +15,61 @@
         app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.021" />
+        app:layout_constraintVertical_bias="0.289" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/catalogFAB3"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="612dp"
+        android:clickable="true"
+        android:src="@drawable/ic_catalog"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/contactFAB2" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/contactFAB2"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="612dp"
+        android:clickable="true"
+        android:src="@drawable/ic_kontak"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/addFAB" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/aboutFAB"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="612dp"
+        android:clickable="true"
+        android:src="@drawable/ic_about"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/catalogFAB3" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/addFAB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="64dp"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="28dp"
         android:clickable="true"
         android:src="@drawable/ic_add"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091" />
 
     <ImageView
         android:id="@+id/illustrationImageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="313dp"
+        android:layout_height="315dp"
+        android:layout_marginTop="192dp"
         android:src="@drawable/ill_not_found"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,9 +79,49 @@
         android:id="@+id/emptyTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
         android:text="Makanan Ringan tidak ditemukan"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="@+id/illustrationImageView"
         app:layout_constraintStart_toStartOf="@+id/illustrationImageView"
         app:layout_constraintTop_toBottomOf="@+id/illustrationImageView" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Tambah Makanan"
+        app:layout_constraintTop_toBottomOf="@+id/addFAB"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:text="Kontak Kami"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/contactFAB2" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:text="Katalog"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/catalogFAB3" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="28dp"
+        android:text="Tentang Kami"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/aboutFAB" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

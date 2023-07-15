@@ -61,11 +61,20 @@ class FirstFragment : Fragment() {
                 adapter.submitList(snacks)
             }
         }
-
         binding.addFAB.setOnClickListener {
             val action = FirstFragmentDirections.actionFirstFragmentToSecondFragment(null)
             findNavController().navigate(action)
         }
+        binding.aboutFAB.setOnClickListener{
+            findNavController().navigate(R.id.action_FirstFragment_to_fifthFragment)
+        }
+        binding.contactFAB2.setOnClickListener{
+            findNavController().navigate(R.id.action_FirstFragment_to_thirdFragment)
+        }
+        binding.catalogFAB3.setOnClickListener{
+            findNavController().navigate(R.id.action_FirstFragment_to_fourthFragment)
+        }
+
     }
 
     override fun onDestroyView() {

@@ -12,6 +12,8 @@ data class Snacks (
     val id: Int=0,
     val name : String,
     val desc: String,
-    val flavor : String
+    val flavor : String,
+    val latitude : Double?,
+    val longitude : Double?
     ) :Parcelable
 

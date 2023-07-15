@@ -73,14 +73,23 @@
             app:layout_constraintEnd_toEndOf="@+id/descEditText"
             app:layout_constraintStart_toStartOf="@+id/textView3"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        <fragment
+            android:id="@+id/map"
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="16dp"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            app:layout_constraintEnd_toEndOf="@+id/flavorEditText"
+            app:layout_constraintStart_toStartOf="@+id/flavorEditText"
+            app:layout_constraintTop_toBottomOf="@+id/flavorEditText"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/flavorEditText"
+            app:layout_constraintEnd_toEndOf="@+id/map"
             app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="@+id/flavorEditText"
-            app:layout_constraintTop_toBottomOf="@+id/flavorEditText">
+            app:layout_constraintStart_toStartOf="@+id/map"
+            app:layout_constraintTop_toBottomOf="@+id/map">
 
         <Button
             android:id="@+id/saveButton"
